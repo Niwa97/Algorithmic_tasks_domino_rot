@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-int min_rotates(std::vector<int> A, std::vector<int> B, int K)
+int min_rotates(std::vector<int>& A, std::vector<int>& B, int K)
 {
     int size = A.size();
     std::vector<int> Diff;
